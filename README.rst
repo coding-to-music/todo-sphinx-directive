@@ -39,9 +39,9 @@ use the following directive anywhere and it will get expanded by the python prog
 Some more text here...
 The sample above would generate:
 
-Some intro text here...
+Some intro text here...::
 
-<list of todo's go here>!
+    <list of todo's go here>
 
 Some more text here...
 
