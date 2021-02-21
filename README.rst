@@ -14,7 +14,7 @@ Here is what needs to be done::
     mkdir source/_ext
     Create an _ext folder in source
 
-Create a new Python file in the _ext folder called helloworld.py
+Create a new Python file in the _ext folder called todo.py
 
 modify conf.py :: 
 
@@ -34,14 +34,14 @@ use the following directive anywhere and it will get expanded by the python prog
 .. code-block:: 
 :directive:
 
-    `::helloworld::`
+    `::todolist::`
 
 Some more text here...
 The sample above would generate:
 
 Some intro text here...
 
-Hello World!
+<list of todo's go here>!
 
 Some more text here...
 
