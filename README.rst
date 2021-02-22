@@ -75,3 +75,5 @@ update of @wxianxin ::
     Run make html then add, commit and push the repo.
     In the GitHub Pages box in the project Settings page, choose to use master branch.
     Visit https://<username>.github.io/<repo>
+
+The page should be viewable at https://coding-to-music.github.io/todo-sphinx-directive/
