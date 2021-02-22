@@ -56,3 +56,22 @@ Unlimited Scale and Free Web Hosting with GitHub Pages and Cloudflare
 https://www.toptal.com/github/unlimited-scale-web-hosting-github-pages-cloudflare
 
 https://medium.com/@shobhitrathi10/github-io-getting-started-e0d643dac850
+
+
+the format of your github.io page will be 
+
+username.github.io/RepositoryName
+
+
+This bug report shows how to publish on github.io 
+https://github.com/sphinx-doc/sphinx/issues/3382
+
+suhailvs commented on Jul 30, 2018
+update of @wxianxin ::
+
+    Create an empty .nojekyll file in the root folder to turn off Jekyll.
+    Create an index.html file in the root folder with contents:
+    <meta http-equiv="refresh" content="0; url=./_build/html/index.html" />
+    Run make html then add, commit and push the repo.
+    In the GitHub Pages box in the project Settings page, choose to use master branch.
+    Visit https://<username>.github.io/<repo>
