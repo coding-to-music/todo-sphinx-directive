@@ -51,3 +51,8 @@ edit the file index.rst, which uses the directive, and view the generated index.
     cd build/html
     python3 -m http.server
     http://0.0.0.0:8000/
+
+Unlimited Scale and Free Web Hosting with GitHub Pages and Cloudflare
+https://www.toptal.com/github/unlimited-scale-web-hosting-github-pages-cloudflare
+
+https://medium.com/@shobhitrathi10/github-io-getting-started-e0d643dac850
