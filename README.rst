@@ -14,6 +14,10 @@ Here is what needs to be done::
     mkdir source/_ext
     Create an _ext folder in source
 
+    apt-get install python3-venv
+    sudo apt-get install python3-venv
+    python -m venv ver3.7
+
 Create a new Python file in the _ext folder called todo.py
 
 modify conf.py :: 

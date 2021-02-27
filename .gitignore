@@ -2,3 +2,5 @@ doc/*.pyc
 venv/
 __pycache__
 .vscode
+
+ver3.7
