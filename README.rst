@@ -33,6 +33,10 @@ Here is what needs to be done::
     USER_SITE: '/home/connorstom/.local/lib/python3.7/site-packages' (exists)
     ENABLE_USER_SITE: True
 
+Example of a site and how they build todcumentation
+
+https://pythonhosted.org/CodeChat/conf.py.html
+
 Here are some commands and the response ::
 
     connorstom@penguin:~/.local/bin$ echo $PATH

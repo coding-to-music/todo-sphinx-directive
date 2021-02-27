@@ -35,6 +35,19 @@ import sys
 
 sys.path.append(os.path.abspath("./_ext"))
 
+from time import strftime, localtime
+# strftime("%a, %d %b %Y %I:%M %p %Z", localtime())
+
+# There are two options for replacing |today|:
+
+# 1. If you set today to some non-false value, then it is used:
+
+##today = ''
+# 2. Otherwise, today_fmt is used as the format for a strftime call.
+
+##today_fmt = '%B %d, %Y'
+today_fmt = "%a, %d %b %Y %I:%M %p %Z"
+
 extensions = ['todo']
 
 todo_include_todos = True

@@ -21,4 +21,7 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+from time import strftime, localtime
+strftime("%a, %d %b %Y %I:%M %p %Z", localtime())
+
 Last change: |today|
