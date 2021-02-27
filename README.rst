@@ -14,9 +14,37 @@ Here is what needs to be done::
     mkdir source/_ext
     Create an _ext folder in source
 
-    apt-get install python3-venv
     sudo apt-get install python3-venv
     python -m venv ver3.7
+
+    python -m site
+
+Here are some commands and the response ::
+
+    connorstom@penguin:~/.local/bin$ echo $PATH
+    /home/connorstom/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+    connorstom@penguin:~/.local/bin$ /usr/bin/python --version
+    Python 2.7.16
+    connorstom@penguin:~/.local/bin$ whereis python
+    python: /usr/bin/python3.7 /usr/bin/python3.7m /usr/bin/python3.7-config /usr/bin/python3.7m-config /usr/bin/python2.7 /usr/bin/python /usr/bin/python2.7-config /usr/lib/python3.7 /usr/lib/python2.7 /etc/python3.7 /etc/python2.7 /etc/python /usr/local/bin/python3.9 /usr/local/bin/python3.9-config /usr/local/lib/python3.7 /usr/local/lib/python3.9 /usr/local/lib/python2.7 /usr/include/python3.7m /usr/include/python3.7 /usr/include/python2.7 /usr/share/python /usr/share/man/man1/python.1.gz
+    connorstom@penguin:~/.local/bin$ which python
+    /usr/bin/python
+    connorstom@penguin:~/.local/bin$ type -a python
+    python is aliased to `python3'
+    python is /usr/bin/python
+    connorstom@penguin:~/.local/bin$ python -m site
+    sys.path = [
+        '/home/connorstom/.local/bin',
+        '/usr/lib/python37.zip',
+        '/usr/lib/python3.7',
+        '/usr/lib/python3.7/lib-dynload',
+        '/home/connorstom/.local/lib/python3.7/site-packages',
+        '/usr/local/lib/python3.7/dist-packages',
+        '/usr/lib/python3/dist-packages',
+    ]
+    USER_BASE: '/home/connorstom/.local' (exists)
+    USER_SITE: '/home/connorstom/.local/lib/python3.7/site-packages' (exists)
+    ENABLE_USER_SITE: True
 
 Create a new Python file in the _ext folder called todo.py
 
