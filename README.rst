@@ -19,6 +19,20 @@ Here is what needs to be done::
 
     python -m site
 
+    connorstom@penguin:~/aprojects/todo-sphinx-directive$ python -m site
+    sys.path = [
+        '/home/connorstom/aprojects/todo-sphinx-directive',
+        '/usr/lib/python37.zip',
+        '/usr/lib/python3.7',
+        '/usr/lib/python3.7/lib-dynload',
+        '/home/connorstom/.local/lib/python3.7/site-packages',
+        '/usr/local/lib/python3.7/dist-packages',
+        '/usr/lib/python3/dist-packages',
+    ]
+    USER_BASE: '/home/connorstom/.local' (exists)
+    USER_SITE: '/home/connorstom/.local/lib/python3.7/site-packages' (exists)
+    ENABLE_USER_SITE: True
+
 Here are some commands and the response ::
 
     connorstom@penguin:~/.local/bin$ echo $PATH
